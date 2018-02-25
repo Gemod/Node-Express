@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <meta charset="utf-8"> 
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+    </head>
+    <body class="home"> 
+        <article class="textLeft" id="main">
+
+         
+            <p>Enter something into form then click Send</p>
+            <div>
+                <form method="POST" id="date">
+                  <label>First name:</label>
+                  <input type="text" name="firstName"><br>
+                  <label>Last name:</label>
+                  <input type="text" name="lastName">
+                  <button type="submit" id="send">Send</button>
+                </form>
+            </div>
+            <section id="post-results-container">
+              <h2>response data from node server</h2>
+
+              <ul class="data"></ul>
+            </section>
+        </article>
+      <script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+      <script type="text/javascript" src="form-handler.js"></script>
+
+	<button type="submit"  id="gepod">Home</button>
+
+    </body> 
